@@ -1,0 +1,85 @@
+* {
+    margin: 0
+}
+
+.titulo {
+    text-align: center;
+    color: white;
+}
+
+.main {
+    background-color: black;
+    width: 500px;
+    color: white;
+    text-align: center;
+    margin-left: 10px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#input {
+    width: 150px;
+}
+
+.titulo {
+    padding-bottom: 30px;
+
+}
+
+.interior {
+    border-style: solid;
+    background-color: grey;
+    color: white;
+    width: 250px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+
+}
+
+select {
+    background-color: white;
+    width: 150px;
+    height: 20px;
+    margin-bottom: 20px;
+
+}
+
+button {
+    margin-bottom: 20px;
+}
+
+.barra {
+    padding-top: 10px;
+
+}
+
+.textarea {
+    width: 400px;
+    height: 20px;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: grey;
+    width: 200px;
+    color: white;
+}
+
+.final {
+    display: grid;
+    grid-template-areas: "conteo id tareas";
+    grid-template-columns: 30% 20% auto;
+
+}
+
+#tablaTareas {
+    border-style: solid;
+    border: solid 2px black
+}

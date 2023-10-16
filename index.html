@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Desafío 5 - JavaScript</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js">
+    </script>
+</head>
+
+<body>
+    <main class="main">
+        <section class="titulo">
+            <h2>Conversor de monedas Nacional</h2>
+        </section>
+        <section class="interior">
+
+            <section class="barra">
+                <h3>Pesos CLP </h3>
+                <input onchange="alCambiarInput()" id="input" type="number" class="moneda"></input>
+            </section>
+            <section class="convertir">
+                <h5>Moneda a convertir: </h5>
+            </section>
+            <select onchange="alCambiarSelect()" id="select">
+                <option value="dolar">Dolar</option>
+                <option value="euro">Euro</option>
+            </select>
+            <section class="boton">
+                <button onclick="calcularResultado ('dolar',100)"> Buscar
+                </button>
+            </section>
+            <section id="resultado">
+                <p>...</p>
+            </section>
+            <canvas id="chart" width="400" height="400">
+            </canvas>
+        </section>
+    </main>
+
+</body>
+
+<script src="./assets/js/script.js"></script>
+
+</html>
